@@ -3,9 +3,17 @@ __author__ = 'Abhishek Shinde | Silman Colab'
 __contact__ = 'abhishek.shinde@silman.com | arabhishek1091@gmail.com'
 __copyright__ = 'SILMAN COLAB- Silman Structural Solutions'
 __license__ = "M.I.T. License"
+__version__ = "2.0"
+__credits__ = "Aussie BIM Guru"
 
 """
-Please credit the author when using the code snippets 
+ABOUT 
+
+Please credit the author when using the code snippets.
+This version is better than v1 as it applies to not only Family Instances but to all the elements
+in the active Revit Document.
+
+This function is modified from the "AddSharedParameters" Youtube tutorial by AussieBIMGuru 
 """ 
 
 from Autodesk.Revit.DB import Transaction, StorageType, SharedParameterElement, FamilyInstance, CategorySet, InstanceBinding, TypeBinding, BuiltInCategory, ElementMulticategoryFilter, FilteredElementCollector

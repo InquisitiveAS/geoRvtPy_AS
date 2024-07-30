@@ -1,3 +1,23 @@
+__doc__ = "This is a Code snippet for adding shared parameters to the Family Instances of the active Revit Document"
+__author__ = 'Abhishek Shinde | Silman Colab'
+__contact__ = 'abhishek.shinde@silman.com | arabhishek1091@gmail.com'
+__copyright__ = 'SILMAN COLAB- Silman Structural Solutions'
+__license__ = "M.I.T. License"
+__version__ = "1.0"
+__credits__ = "Aussie BIM Guru"
+
+"""
+ABOUT
+
+Please credit the author when using the code snippets.
+This version only applies shared parameter with 
+Try using the v2 for your project, as it applies the shared parameters to both 
+the family instances and the System Families in the active Revit Document
+
+This function is modified from the "AddSharedParameters" Youtube tutorial by AussieBIMGuru 
+
+""" 
+
 from Autodesk.Revit.DB import Transaction, StorageType, SharedParameterElement, FamilyInstance, CategorySet, InstanceBinding, TypeBinding, BuiltInCategory
 
 def addSharedParamsToFamilyInstances(family_instances, famDefs, famBipgs, famInst, famForm):
