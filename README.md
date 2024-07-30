@@ -7,14 +7,18 @@ Computational design workflows inside Revit majorly focused on PyRevit Revit API
 
 BACKGROUND
 ----------
-This repository is aimed towards Autodesk Revit3D CAD software. Custom Python files, pyrevit projects
-are included in the repository. 
+This repository is aimed towards Autodesk Revit3D , a BIM Modeling CAD software. It contains custom python files, pyrevit project code snippets 
+for REVIT API. Python version compatibility varies from file to file. Some are IronPython 2.7 compatible and some are Python 3.8 compatible
 
 APPLICATION
 -----------
 * Data Interoperability
+* BIM Automation workflows using Revit API 
+* Dictionary Parsing inside Revit 
 * Code snippets for Python
 * Excel data write and read using clr .Net module for Revit
+* Shared Parameters manipulation inside Revit Document 
+
 
 COPYRIGHT & LICENSING
 ---------------------
